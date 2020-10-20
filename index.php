@@ -4,8 +4,8 @@ include_once("header.php");
 
 $page=$_GET['page'];
 
-if($page=='list'){
-    include_once("list.php");
+if($page=='report'){
+    include_once("report.html");
 }elseif($page=='dashboard'){
     include_once("dashboard.php");
 }else{

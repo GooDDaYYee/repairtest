@@ -38,7 +38,7 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php?page=home">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+          <i class="fas fa-wrench"></i>
         </div>
         <div class="sidebar-brand-text mx-3">Repair<sup>CP</sup></div>
       </a>
@@ -54,14 +54,14 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
           aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
+          <i class="fas fa-align-justify"></i>
           <span>Components</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.html">Buttons</a>
-            <a class="collapse-item" href="cards.html">Cards</a>
+            <a class="collapse-item fas fa-th-list" href="http://localhost/repair/index.php?page=home">&nbsp; List</a>
+            <a class="collapse-item fas fa-edit" href="http://localhost/repair/index.php?page=report">&nbsp; Report</a>
           </div>
         </div>
       </li>

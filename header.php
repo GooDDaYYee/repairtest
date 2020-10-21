@@ -60,8 +60,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item fas fa-th-list" href="http://localhost/repair/index.php?page=home">&nbsp; List</a>
-            <a class="collapse-item fas fa-edit" href="http://localhost/repair/index.php?page=report">&nbsp; Report</a>
+            <a class="collapse-item fas fa-th-list" href="http://localhost/repair/index.php?page=home">&nbsp; รายการ</a>
+            <a class="collapse-item fas fa-edit" href="http://localhost/repair/index.php?page=report">&nbsp; แจ้งซ่อม</a>
           </div>
         </div>
       </li>
@@ -76,7 +76,7 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="#">Colors</a>
+            <a class="collapse-item" href="#"></a>
           </div>
         </div>
       </li>

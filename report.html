@@ -267,26 +267,27 @@
                       placeholder="Repeat Password" required="">
                   </div>
                 </div>
+
+                <!-- picture -->
                 <div class="form-group">
-                  <div class="col-md-3"></div>
+                  <class class="col-md-4"></class>
                   <div class="col-md-7">
 
                     <img id="showimg" alt="" width="150" height="150">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-md-3">เลือกภาพ :</label>
-                  <div class="col-md-5">
-                    <input type="file" class="form-control" id="showimg" name="showimg"
-                      accept="image/png, image/jpeg, image/gif " onchange="preview_image(event)">
-                  </div>
+                  <h6>Open file :</h6>
+                  <input type="file" class="btn btn-outline-primary" id="showimg" name="showimg"
+                    accept="image/png, image/jpeg, image/gif " onchange="preview_image(event)">
+
                 </div>
-              </div>
+              <!-- End picture -->
               <button class="btn btn-primary btn-user btn-block" type="submit">
                 <h5>Submit</h5>
               </button>
-              <hr class="sidebar-divider">
-              <a href="http://localhost/repair/index.php?page=home" class="fas fa-arrow-left"></a>
+            </div>
+
               </form>
             </div>
           </div>
